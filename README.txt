@@ -1,0 +1,1 @@
+the manual way of setting up webpack bundles, etc.
