@@ -1,0 +1,24 @@
+{
+  "name": "modern_javascript",
+  "version": "1.0.0",
+  "description": "learning modern js tools using npm's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch"
+  },
+  "author": "Js",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^9.4.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
